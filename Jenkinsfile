@@ -3,7 +3,7 @@ de('built-in')
 {
    stage('ContionousDownload') 
        {
-               git branch: 'main', url: 'https://github.com/sumanthintime/maven.git'
+               git branch: 'main', url: 'https://github.com/sumanthintime/Jenkins.git'
 	           }
 		       stage('ContionousBuild') 
 		           {
