@@ -16,6 +16,7 @@ node('built-in')
 							        stage('ContionousTesting') 
 								    {
 								            git branch: 'main', url: 'https://github.com/sumanthintime/FunctionalTesting.git'
+									    sh 'java -jar /home/ubuntu/.jenkins/workspace/ScriptedPipeline1/testing.jar'
 									        }
 										    stage('ContionousDelivery') 
 										        {
